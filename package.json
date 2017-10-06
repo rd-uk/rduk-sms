@@ -1,0 +1,41 @@
+{
+  "name": "rduk-sms",
+  "version": "1.0.0",
+  "description": "sms base provider",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "jshint lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rd-uk/rduk-sms.git"
+  },
+  "keywords": [
+    "sms",
+    "manager"
+  ],
+  "author": "Kim Ung <k.ung@rduk.fr>",
+  "license": "MIT",
+  "devDependencies": {
+    "coveralls": "2.13.0",
+    "istanbul": "0.4.5",
+    "jasmine": "2.6.0",
+    "jshint": "2.9.5"
+  },
+  "bugs": {
+    "url": "https://github.com/rd-uk/rduk-sms/issues"
+  },
+  "homepage": "https://github.com/rd-uk/rduk-sms#readme",
+  "dependencies": {
+    "rduk-configuration": "1.0.2",
+    "rduk-errors": "1.2.3",
+    "rduk-provider": "0.1.3",
+    "twilio": "3.7.0"
+  },
+  "rduk": {
+    "config": {
+      "path": "config"
+    }
+  }
+}
