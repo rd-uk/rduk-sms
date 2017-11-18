@@ -1,6 +1,6 @@
 {
   "name": "@rduk/sms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "sms base provider",
   "main": "lib/index.js",
   "scripts": {
